@@ -15,7 +15,7 @@ class LoginActivity : AppCompatActivity() {
             val loginDig = et_login.text.toString()
             val senhaDig = et_senha.text.toString()
             val intent = Intent(this, ListaEmpresaActivity::class.java)
-            if(loginDig == "adimin" && senhaDig == "123")
+            if(loginDig == "admin" && senhaDig == "123")
                 startActivity(intent)
                 }
 

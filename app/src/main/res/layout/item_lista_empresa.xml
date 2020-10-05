@@ -11,7 +11,9 @@
     <TextView
         android:id="@+id/detalhe_empresa"
         android:text="Detalhe empresa"
+        android:textColor="@color/edittext_color"
         android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_bordas"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"

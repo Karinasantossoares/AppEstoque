@@ -32,7 +32,7 @@ class ProdutoAdapter (val listaInformacao: List<Produto>, val eventClick :(produ
     fun criar(produto: Produto){
         itemView.tv_nome_produto.text = produto.nomeProduto
         itemView.tv_valor_produto.text = produto.valorProduto.toString()
-        itemView.tv_qtd_produto.text = produto.nomeProduto
+        itemView.tv_qtd_produto.text = produto.qtdProduto.toString()
 
 
 

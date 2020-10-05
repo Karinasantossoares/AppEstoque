@@ -7,5 +7,7 @@
     <string name="informa_ao">Informaçao</string>
     <string name="seja_bem_vindo">Seja bem vindo</string>
     <string name="detalhe_aqui">Detalhe aqui</string>
-    <string name="detalhe_do_produto">Detalhe do produto:</string>
+    <string name="detalhe_do_produto">Detalhe do produto</string>
+    <string name="digite_seu_login">Digite seu login</string>
+    <string name="text_lista_empresa">Empresas</string>
 </resources>
