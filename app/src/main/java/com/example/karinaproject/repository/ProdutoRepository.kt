@@ -1,7 +1,7 @@
 package com.example.karinaproject.repository
 
 import com.example.karinaproject.data.data.model.Produto
-import com.example.karinaproject.ui.RegistrationViewParams
+import com.example.karinaproject.data.data.model.RegistrationViewParams
 
 
 //ESSA CLASSE QUE SE LIGA AO BD

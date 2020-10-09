@@ -3,7 +3,7 @@ package com.example.karinaproject.data.data.db
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.example.karinaproject.data.data.model.Produto
-import com.example.karinaproject.ui.RegistrationViewParams
+import com.example.karinaproject.data.data.model.RegistrationViewParams
 
 
 @Entity(tableName = "produto")

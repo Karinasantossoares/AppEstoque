@@ -1,4 +1,4 @@
-package com.example.karinaproject.ui
+package com.example.karinaproject.data.data.model
 
 data class RegistrationViewParams (
 

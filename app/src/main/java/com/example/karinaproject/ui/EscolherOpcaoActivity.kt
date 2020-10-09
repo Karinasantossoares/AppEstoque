@@ -22,7 +22,7 @@ class EscolherOpcaoActivity : AppCompatActivity() {
         }
 
         btn_visualizar_produto.setOnClickListener{
-            val intent = Intent(this,Detalhe_produto::class.java)
+            val intent = Intent(this,DetalheProdutoActivity::class.java)
             startActivity(intent)
         }
 

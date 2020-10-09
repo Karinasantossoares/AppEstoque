@@ -1,11 +1,10 @@
 package com.example.karinaproject.repository
 
 import com.example.karinaproject.data.data.dao.ProdutoDao
-import com.example.karinaproject.data.data.db.ProdutoEntity
 import com.example.karinaproject.data.data.db.toProduto
 import com.example.karinaproject.data.data.db.toProdutoEntity
 import com.example.karinaproject.data.data.model.Produto
-import com.example.karinaproject.ui.RegistrationViewParams
+import com.example.karinaproject.data.data.model.RegistrationViewParams
 
 
 //Essa classe se refere ao banco de dados room.

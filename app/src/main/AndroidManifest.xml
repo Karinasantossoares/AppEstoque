@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.Detalhe_produto"></activity>
+        <activity android:name=".ui.DetalheProdutoActivity"></activity>
         <activity android:name=".ui.CadastrarEmpresaActivity" />
         <activity android:name=".ui.CadastrarProdutoAtivity" />
         <activity android:name=".ui.EscolherOpcaoActivity" />
