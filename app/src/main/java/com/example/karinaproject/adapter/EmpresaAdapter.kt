@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.karinaproject.`object`.Empresa
 import com.example.karinaproject.R
 import kotlinx.android.synthetic.main.item_lista_empresa.view.*
 
@@ -28,7 +27,7 @@ class EmpresaAdapter (val listaInformacao: List<Empresa>, val eventClick :(empre
 
  inner class ViewHolder(itemView :View) : RecyclerView.ViewHolder(itemView){
     fun criar(empresa: Empresa){
-        itemView.detalhe_empresa.text = empresa.nome
+        itemView.detalhe_empresa.text = empresa.nomeEmpresa
 
 
         itemView.setOnClickListener{

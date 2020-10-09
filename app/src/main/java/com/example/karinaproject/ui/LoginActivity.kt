@@ -1,4 +1,4 @@
-package com.example.karinaproject.activity
+package com.example.karinaproject.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -14,7 +14,7 @@ class LoginActivity : AppCompatActivity() {
         btn_enter.setOnClickListener {
             val loginDig = et_login.text.toString()
             val senhaDig = et_senha.text.toString()
-            val intent = Intent(this, ListaEmpresaActivity::class.java)
+            val intent = Intent(this, EscolherOpcaoActivity::class.java)
             if(loginDig == "admin" && senhaDig == "123")
                 startActivity(intent)
                 }

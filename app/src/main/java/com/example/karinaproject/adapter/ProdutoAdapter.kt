@@ -4,10 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.karinaproject.`object`.Empresa
 import com.example.karinaproject.R
-import com.example.karinaproject.`object`.Produto
-import kotlinx.android.synthetic.main.item_lista_empresa.view.*
 import kotlinx.android.synthetic.main.item_lista_produto.view.*
 
 class ProdutoAdapter (val listaInformacao: List<Produto>, val eventClick :(produto : Produto)->Unit) : RecyclerView.Adapter<ProdutoAdapter.ViewHolder>(){

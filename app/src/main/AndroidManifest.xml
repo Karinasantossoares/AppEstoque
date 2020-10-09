@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.DetalheProdutoActivity"></activity>
-        <activity android:name=".activity.ListaProdutoActivty" />
-        <activity android:name=".BlocoCodigoAcitvity" />
-        <activity android:name=".activity.ListaEmpresaActivity" />
-        <activity android:name=".activity.LoginActivity">
+        <activity android:name=".ui.Detalhe_produto"></activity>
+        <activity android:name=".ui.CadastrarEmpresaActivity" />
+        <activity android:name=".ui.CadastrarProdutoAtivity" />
+        <activity android:name=".ui.EscolherOpcaoActivity" />
+        <activity android:name=".ui.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

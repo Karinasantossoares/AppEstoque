@@ -10,4 +10,14 @@
     <string name="detalhe_do_produto">Detalhe do produto</string>
     <string name="digite_seu_login">Digite seu login</string>
     <string name="text_lista_empresa">Empresas</string>
+    <string name="escolha_opcao">Clique na opção desejada</string>
+    <string name="cadastrar_produto">CADASTRAR PRODUTO</string>
+    <string name="cadastrar_empresa">CADASTRAR EMPRESA</string>
+    <string name="nome_do_produto">Nome do produto:</string>
+    <string name="valor_do_produto">Valor do produto :</string>
+    <string name="quantidade_do_produto">Quantidade do produto:</string>
+    <string name="visualizar_produtos_cadastrados">Visualizar produtos cadastrados</string>
+    <string name="nome_da_empresa">Nome da empresa :</string>
+    <string name="endere_o_da_empresa">Endereço da empresa:</string>
+    <string name="telefone_da_empresa">Telefone da empresa</string>
 </resources>
