@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@style/AppThemeSecond"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <TextView
+        android:id="@+id/tv_title_escolha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/edittext_color"
+        android:text="@string/escolha_opcao"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_cadastrar_empresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_escolha"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_cuttom_escolha"
+        android:text="@string/cadastrar_empresa"
+        android:textColor="@color/edittext_color"/>
+
+    <Button
+        android:id="@+id/btn_cadastrar_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_cuttom_escolha"
+        app:layout_constraintTop_toBottomOf="@id/btn_cadastrar_empresa"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/cadastrar_produto"
+        android:textColor="@color/edittext_color"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_lista_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_cadastrar_produto"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_cuttom_escolha"
+        android:text="@string/lista_de_produtos"
+        android:textColor="@color/edittext_color"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

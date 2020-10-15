@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/AppThemeSecond"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/color_white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSIRA OS DADOS "
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/edittext_color"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_cadastrar_nome_produto"
+        android:layout_width="0dp"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_produto"
+        android:textColorHint="@color/edittext_color"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="150dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_valor_produto"
+        android:layout_width="0dp"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:hint="@string/valor_do_produto"
+        android:textColorHint="@color/edittext_color"
+        app:layout_constraintTop_toBottomOf="@id/et_cadastrar_nome_produto"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_qtd_produto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/quantidade_do_produto"
+        android:textColorHint="@color/edittext_color"
+        app:layout_constraintTop_toBottomOf="@id/et_valor_produto"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/et_qtd_produto"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_cuttom_escolha"
+        android:text="@string/cadastrar_produto"
+        android:textColor="@color/colorPrimary"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
